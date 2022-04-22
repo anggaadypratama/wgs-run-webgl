@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  webgl:
+    container_name: wgs-run-webgl
+    image: wgs-run-webgl
+    build: .
+    ports:
+      - "8080:80"
